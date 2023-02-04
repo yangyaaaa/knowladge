@@ -1,55 +1,72 @@
  {
     "nodes": [
       {
-        "id": "Best Practice"
+        "id": "Best Practice",
+        "height": 50
       },
       {
-        "id": "Buch"
+        "id": "Buch",
+        "height":50
       },
       {
-        "id": "Prozessmanagement"
+        "id": "Prozessmanagement",
+        "height":50
       },
       {
-        "id": "Qualitätsmanagement"
+        "id": "Qualitätsmanagement",
+        "height":50
       },
       {
-        "id": "Selbstmanagement"
+        "id": "Selbstmanagement",
+        "height":50
       },
       {
-        "id": "Change management"
+        "id": "Change management",
+        "height":50
       },
       {
-        "id": "Compliance management"
+        "id": "Compliance management",
+        "height":50
       },
       {
-        "id": "Enterprise architecture management"
+        "id": "Enterprise architecture management",
+        "height":50
       },
       {
-        "id": "Gesundheitsmanagement"
+        "id": "Gesundheitsmanagement",
+        "height":50
       },
       {
-        "id": "Kostenmanagement"
+        "id": "Kostenmanagement",
+        "height":50
       },
       {
-        "id": "Sharepoint"
+        "id": "Sharepoint",
+        "height":50
       },
       {
-        "id": "Ideen"
+        "id": "Ideen",
+        "height":50
       },
       {
-        "id": "Leadership"
+        "id": "Leadership",
+        "height":50
       },
       {
-        "id": "Power platform"
+        "id": "Power platform",
+        "height":50
       },
       {
-        "id": "Sicherheitsmanagement"
+        "id": "Sicherheitsmanagement",
+        "height":50
       },
       {
-        "id": "Umweltmanagement"
+        "id": "Umweltmanagement",
+        "height":50
       },
       {
-        "id": "Wissenmanagement"  
+        "id": "Wissenmanagement",
+        "height":50
       } 
     ],
     "edges": [
