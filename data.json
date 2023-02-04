@@ -70,10 +70,16 @@
       { "from": "Power platform", "to": "Sharepoint" },
       { "from": "Wissenmanagement", "to": "Buch" },
       { "from": "Sicherheitsmanagement", "to": "Umweltmanagement" },
-      { "from": "Umweltmanagemeng", "to": "Wissenmanagement" },
+      { "from": "Umweltmanagement", "to": "Wissenmanagement" },
       { "from": "Qualitätsmanagement", "to": "Prozessmanagement" },
       { "from": "Selbstmanagement", "to": "Leadership" },
       { "from": "Selbstmanagement", "to": "Best Practice" },
-      { "from": "Prozessmanagemeng", "to": "Changemanagement" }
+      { "from": "Prozessmanagement", "to": "Changemanagement" },
+      { "from": "Compliancemanagement", "to": "Changemanagement" },
+      { "from": "Compliancemanagement", "to": "Selbstmanagement" },
+      { "from": "Kostenmanagement", "to": "Qualitätsmanagement" },
+      { "from": "Qualitätsmanagement", "to": "Enterprise architecture management" },
+      { "from": "Enterprise architecture management", "to": "Sharepoint" },
+      { "from": "Best Practice", "to": "Power platform" }
     ]
   }
