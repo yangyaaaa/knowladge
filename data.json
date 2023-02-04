@@ -82,8 +82,6 @@
       { "from": "Enterprise architecture management", "to": "Sharepoint" },
       { "from": "Best Practice", "to": "Power platform" },
       { "from": "Changemanagement", "to": "Wissenmanagement" },
-      { "from": "Wissenmanagement", "to": "Compliancemanagement" },
-      { "from": "Umweltmanagement", "to": "Changemanagement" },
-      { "from": "Umweltmanagement", "to": "Compliancemanagement" }
+      { "from": "Wissenmanagement", "to": "Compliancemanagement" }
     ]
   }
