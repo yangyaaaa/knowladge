@@ -100,6 +100,6 @@
       { "from": "Best Practice", "to": "Power platform" },
       { "from": "Changemanagement", "to": "Wissenmanagement" },
       { "from": "Wissenmanagement", "to": "Compliancemanagement" },
-      { "from": "Changemanagement", "to": "Comliancemanagement" }
+      { "from": "Changemanagement", "to": "Compliancemanagement" }
     ]
   }
