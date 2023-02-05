@@ -69,7 +69,7 @@
         "height":50
       } 
     ],
-    "edges": [
+     "edges": [
       { "from": "Best Practice", "to": "Buch" },
       { "from": "Best Practice", "to": "Ideen" },
       { "from": "Buch", "to": "Leadership" },
@@ -80,7 +80,6 @@
       { "from": "Qualitätsmanagement", "to": "Compliancemanagement" },
       { "from": "Gesundheitsmanagement", "to": "Wissenmanagement" },
       { "from": "Selbstmanagement", "to": "Compliancemanagement" },
-      { "from": "Changemanagement", "to": "Compliancemanagement" },
       { "from": "Changemanagement", "to": "Enterprise architecture management" },
       { "from": "Enterprise architecture management", "to": "Sicherheitsmanagement" },
       { "from": "Sicherheitsmanagement", "to": "Compliancemanagement" },
@@ -93,13 +92,12 @@
       { "from": "Selbstmanagement", "to": "Best Practice" },
       { "from": "Prozessmanagement", "to": "Changemanagement" },
       { "from": "Compliancemanagement", "to": "Changemanagement" },
-      { "from": "Compliancemanagement", "to": "Selbstmanagement" },
       { "from": "Kostenmanagement", "to": "Qualitätsmanagement" },
       { "from": "Qualitätsmanagement", "to": "Enterprise architecture management" },
       { "from": "Enterprise architecture management", "to": "Sharepoint" },
       { "from": "Best Practice", "to": "Power platform" },
       { "from": "Changemanagement", "to": "Wissenmanagement" },
-      { "from": "Wissenmanagement", "to": "Compliancemanagement" },
-      { "from": "Changemanagement", "to": "Compliancemanagement" }
+      { "from": "Wissenmanagement", "to": "Compliancemanagement" }
+
     ]
   }
