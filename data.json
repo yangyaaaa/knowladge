@@ -134,10 +134,8 @@
        
           
         }
-      
-      ]，
     
-
+],
 "edges": [
       { "from": "Best Practice", "to": "Buch" },
       { "from": "Best Practice", "to": "Ideen" },
