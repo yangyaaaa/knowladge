@@ -154,7 +154,6 @@
       { "from": "Wissenmanagement", "to": "Buch" },
       { "from": "Sicherheitsmanagement", "to": "Umweltmanagement" },
       { "from": "Umweltmanagement", "to": "Wissenmanagement" },
-      { "from": "Qualitätsmanagement", "to": "Prozessmanagement" },
       { "from": "Selbstmanagement", "to": "Leadership" },
       { "from": "Selbstmanagement", "to": "Best Practice" },
       { "from": "Prozessmanagement", "to": "Changemanagement" },
