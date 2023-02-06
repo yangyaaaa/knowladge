@@ -2,102 +2,138 @@
     "nodes": [
       {
         "id": "Best Practice",
+        "parent":"",
+        "name":"Parent 1",
         "height": 50
-      },
+        },
+      
       {
         "id": "Buch",
-        "height":50
-      },
+        "parent":"Best Practice",
+        "height":50,
+        "name": "child 1"
+        },
+          
       {
         "id": "Prozessmanagement",
-        "height":50
-      },
+        "parent":"Wissenmanagement",
+        "height":50,
+        "name":"Child 2"
+        
+        },
+
       {
         "id": "Qualitätsmanagement",
-        "height":50
-      },
+        "parent":"Wissenmanagement",
+        "height":50,
+        "name":"child 1"
+        
+        },
+
       {
         "id": "Selbstmanagement",
-        "height":50
-      },
+        "parent":"Wissenmanagement",
+        "height":50,
+        "name":"Child 2"
+        
+        },
+
       {
         "id": "Changemanagement",
-        "height":50
-      },
+        "parent":"Wissenmanagement",
+        "height":50,
+        "name":"Child 3"
+        
+        },
+
       {
         "id": "Compliancemanagement",
-        "height":50
-      },
+        "parent":"Wissenmanagement",
+        "height":50,
+        "name":"Child 3"
+        },
+
       {
         "id": "Enterprise architecture management",
-        "height":50
-      },
+        "parent":"Leadership",
+        "height":50,
+        "name":"Child 1"
+        
+          
+        },
+
       {
         "id": "Gesundheitsmanagement",
-        "height":50
-      },
+        "parent":"Wissenmanagement",
+        "height":50,
+        "name":"child 1"
+          
+        },
+
       {
         "id": "Kostenmanagement",
-        "height":50
-      },
+        "parent":"Wissenmanagement",
+        "height":50,
+        "name":"Child 2"
+        
+        },
+
       {
         "id": "Sharepoint",
-        "height":50
-      },
+        "parent":"Leadership",
+        "height":50,
+        "name":"Child 3"
+        
+        },
+
       {
         "id": "Ideen",
-        "height":50
-      },
+        "parent":"Buch",
+        "height":50,
+        "name":"Child 2"
+        },
+
       {
         "id": "Leadership",
-        "height":50
-      },
+        "parent":"",
+        "height":50,
+        "name":"Parent 1"
+        },
+
       {
         "id": "Power platform",
-        "height":50
-      },
+        "parent":"Leadership",
+        "height":50,
+        "name":"Child 2"
+        
+        },
+
       {
         "id": "Sicherheitsmanagement",
-        "height":50
-      },
+        "parent":"Wissenmanagement",
+        "height":50,
+        "name":"child 1"
+        
+          
+        },
+      
       {
         "id": "Umweltmanagement",
-        "height":50
-      },
+        "parent":"Wissenmanagement",
+        "height":50,
+        "name":"child 1"
+        
+          
+        },
+
       {
         "id": "Wissenmanagement",
-        "height":50
-      } 
-    ],
-     "edges": [
-      { "from": "Best Practice", "to": "Buch" },
-      { "from": "Best Practice", "to": "Ideen" },
-      { "from": "Buch", "to": "Leadership" },
-      { "from": "Ideen", "to": "Prozessmanagement" },
-      { "from": "Prozessmanagement", "to": "Qualitätsmanagement" },
-      { "from": "Kostenmanagement", "to": "Prozessmanagement" },
-      { "from": "Prozessmanagement", "to": "Gesundheitsmanagement" },
-      { "from": "Qualitätsmanagement", "to": "Compliancemanagement" },
-      { "from": "Gesundheitsmanagement", "to": "Wissenmanagement" },
-      { "from": "Selbstmanagement", "to": "Compliancemanagement" },
-      { "from": "Changemanagement", "to": "Enterprise architecture management" },
-      { "from": "Enterprise architecture management", "to": "Sicherheitsmanagement" },
-      { "from": "Sicherheitsmanagement", "to": "Compliancemanagement" },
-      { "from": "Power platform", "to": "Sharepoint" },
-      { "from": "Wissenmanagement", "to": "Buch" },
-      { "from": "Sicherheitsmanagement", "to": "Umweltmanagement" },
-      { "from": "Umweltmanagement", "to": "Wissenmanagement" },
-      { "from": "Qualitätsmanagement", "to": "Prozessmanagement" },
-      { "from": "Selbstmanagement", "to": "Leadership" },
-      { "from": "Selbstmanagement", "to": "Best Practice" },
-      { "from": "Prozessmanagement", "to": "Changemanagement" },
-      { "from": "Compliancemanagement", "to": "Changemanagement" },
-      { "from": "Kostenmanagement", "to": "Qualitätsmanagement" },
-      { "from": "Qualitätsmanagement", "to": "Enterprise architecture management" },
-      { "from": "Enterprise architecture management", "to": "Sharepoint" },
-      { "from": "Best Practice", "to": "Power platform" },
-      { "from": "Changemanagement", "to": "Wissenmanagement" },
-      { "from": "Wissenmanagement", "to": "Compliancemanagement" }
-
-    ]
-  }
+        "parent":"",
+        "height":50,
+        "name":"Child 2"
+       
+          
+        }
+      
+      ]
+    }
