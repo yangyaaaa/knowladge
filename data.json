@@ -1,4 +1,4 @@
- {
+  {
     "nodes": [
       {
         "id": "Best Practice",
@@ -130,10 +130,12 @@
         "id": "Wissenmanagement",
         "parent":"",
         "height":50,
-        "name":"Child 2"
+        "name":"Parent 1"
        
           
         }
       
       ]
     }
+
+    
