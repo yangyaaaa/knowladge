@@ -1,136 +1,102 @@
   {
     "nodes": [
       {
-        "id": "Best Practice",
-        "parent":"",
-        "name":"Parent 1",
-        "height": 50
+        "id": "Best Practice"
+        
         },
       
       {
-        "id": "Buch",
-        "parent":"Best Practice",
-        "height":50,
-        "name": "child 1"
+        "id": "Buch"
+       
+        
+       
         },
           
       {
-        "id": "Prozessmanagement",
-        "parent":"Wissenmanagement",
-        "height":50,
-        "name":"Child 2"
+        "id": "Prozessmanagement"
+      
         
         },
 
       {
-        "id": "Qualitätsmanagement",
-        "parent":"Wissenmanagement",
-        "height":50,
-        "name":"child 1"
+        "id": "Qualitätsmanagement"
         
         },
 
       {
-        "id": "Selbstmanagement",
-        "parent":"Wissenmanagement",
-        "height":50,
-        "name":"Child 2"
+        "id": "Selbstmanagement"
+   
+        },
+
+      {
+        "id": "Changemanagement"
+        
         
         },
 
       {
-        "id": "Changemanagement",
-        "parent":"Wissenmanagement",
-        "height":50,
-        "name":"Child 3"
+        "id": "Compliancemanagement"
+       
+        },
+
+      {
+        "id": "Enterprise architecture management"
         
-        },
-
-      {
-        "id": "Compliancemanagement",
-        "parent":"Wissenmanagement",
-        "height":50,
-        "name":"Child 3"
-        },
-
-      {
-        "id": "Enterprise architecture management",
-        "parent":"Leadership",
-        "height":50,
-        "name":"Child 1"
         
           
         },
 
       {
-        "id": "Gesundheitsmanagement",
-        "parent":"Wissenmanagement",
-        "height":50,
-        "name":"child 1"
+        "id": "Gesundheitsmanagement"
+        
           
         },
 
       {
-        "id": "Kostenmanagement",
-        "parent":"Wissenmanagement",
-        "height":50,
-        "name":"Child 2"
+        "id": "Kostenmanagement"
+       
         
         },
 
       {
-        "id": "Sharepoint",
-        "parent":"Leadership",
-        "height":50,
-        "name":"Child 3"
+        "id": "Sharepoint"
+       
         
         },
 
       {
-        "id": "Ideen",
-        "parent":"Buch",
-        "height":50,
-        "name":"Child 2"
+        "id": "Ideen"
+       
         },
 
       {
-        "id": "Leadership",
-        "parent":"",
-        "height":50,
-        "name":"Parent 1"
+        "id": "Leadership"
+       
         },
 
       {
-        "id": "Power platform",
-        "parent":"Leadership",
-        "height":50,
-        "name":"Child 2"
+        "id": "Power platform"
+       
         
         },
 
       {
-        "id": "Sicherheitsmanagement",
-        "parent":"Wissenmanagement",
-        "height":50,
-        "name":"child 1"
+        "id": "Sicherheitsmanagement"
+       
         
           
         },
       
       {
-        "id": "Umweltmanagement",
-        "parent":"Wissenmanagement",
-        "height":50,
-        "name":"child 1"
+        "id": "Umweltmanagement"
+        
         
           
         },
 
       {
-        "id": "Wissenmanagement",
-        "parent":"",
-        "height":50,
-        "name":"Parent 1"
+        "id": "Wissenmanagement"
+      
        
           
         }
