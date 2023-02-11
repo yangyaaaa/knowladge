@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        
+        <style>
+            #container {
+                min-width: 320px;
+                max-width: 800px;
+                margin: 0 auto;
+                height: 500px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="container"></div>
+        
+        <script>
+
+            Highcharts.chart("container", {
+            chart: {
+                type: "networkgraph",
+                marginTop: 80
+            },
+
+            title: {
+                text: "South Korea domestic flight routes"
+            },
+
+        plotOptions: {
+            networkgraph: {
+            keys: ["from", "to"],
+            layoutAlgorithm: {
+                enableSimulation: true,
+                integration: "verlet",
+                linkLength: 100
+            }   
+            },
+            series: {
+               point: {
+                events: {
+                   click: function () {
+                    window.location.href = this.series.options.url;
+                }
+            }
+            },
+            cursor: 'pointer'
+            }
+            },
+
+        series: [
+            {
+            marker: {
+                radius: 13
+            },
+            dataLabels: {
+                enabled: true,
+                linkFormat: "",
+                allowOverlap: true,
+                style: {
+                textOutline: false
+                }
+            },
+            data: [
+                ["Seoul ICN", "Daegu"],
+                ["Seoul ICN", "Busan"],
+                ["Busan", "Seoul GMP"],
+                ["Busan", "Yangyang"],
+
+                ["Daegu", "Seoul GMP"],
+                ["Daegu", "Jeju"],
+
+                ["Seoul GMP", "Gwangju"],
+                ["Seoul GMP", "Yeosu"],
+                ["Seoul GMP", "Sacheon"],
+                ["Seoul GMP", "Ulsan"],
+                ["Seoul GMP", "Pohang"],
+
+                ["Jeju", "Gwangju"],
+                ["Jeju", "Gunsan"],
+                ["Jeju", "Wonju"],
+                ["Jeju", "Yangyang"],
+                ["Jeju", "Daegu"],
+                ["Jeju", "Yeosu"],
+                ["Jeju", "Sacheon"],
+                ["Jeju", "Ulsan"],
+                ["Jeju", "Busan"],
+                ["Jeju", "Cheongju"]
+            ],
+            nodes: [
+                {
+                id: "Seoul ICN",
+                marker: {
+                    radius: 30
+                },
+                color: "#32a852",
+                url:"https://www.amazon.de/",
+                },
+                {
+                id: "Daegu",
+                url:'https://google.com',
+                marker: {
+                    radius: 10
+                },
+                color: "#32a852"
+                },
+                {
+                id: "Busan",
+                url:'https://google.com',
+                marker: {
+                    radius: 30
+                },
+                color: "#32a852"
+                },
+                {
+                id: "Seoul GMP",
+                url:'https://google.com',
+                marker: {
+                    radius: 20
+                },
+                color: "#32a852"
+                },
+                {
+                id: "Jeju",
+                url:"https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ",
+                marker: {
+                    radius: 30
+                },
+                color: "#32a852"
+                },
+                {
+                id: "Gwangju",
+                url:'https://google.com',
+                marker: {
+                    radius: 10
+                },
+                color: "#32a852"
+                },
+                {
+                id: "Yeosu",
+                url:'https://google.com',
+                marker: {
+                    radius: 10
+                },
+                color:"#32a852"
+                },
+                {
+                id: "Sacheon",
+                url:'https://google.com',
+                marker: {
+                    radius: 10
+                },
+                color:"#32a852"
+                },
+                {
+                id: "Ulsan",
+                url:'https://google.com',
+                marker: {
+                    radius: 10
+                },
+                color: "#32a852"
+                },
+                {
+                id: "Pohang",
+                url:'https://google.com',
+                marker: {
+                    radius: 20
+                },
+                color:"#32a852"
+                },
+                {
+                id: "Gunsan",
+                url:'https://google.com',
+                marker: {
+                    radius: 10
+                },
+                color:"#32a852"
+                },
+                {
+                id: "Wonju",
+                url:'https://google.com',
+                marker: {
+                    radius: 10
+                },
+                color: "#32a852"
+                },
+                {
+                id: "Yangyang",
+                url:'https://google.com',
+                marker: {
+                    radius: 10
+                },
+                color: "#32a852"
+                },
+                {
+                id: "Cheongju",
+                url:'https://google.com',
+                marker: {
+                    radius: 20
+                },
+                color: "#32a852"
+                }
+            ]
+            }
+        ]
+        });
+                </script>
+
+            </body>
+        </html>
+
